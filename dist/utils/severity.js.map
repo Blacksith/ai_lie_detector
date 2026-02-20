@@ -1,0 +1,1 @@
+{"version":3,"file":"severity.js","sourceRoot":"","sources":["../../src/utils/severity.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,YAAY,CAAC,QAAkB;IAC7C,QAAQ,QAAQ,EAAE,CAAC;QACjB,KAAK,OAAO;YACV,OAAO,CAAC,CAAC;QACX,KAAK,MAAM;YACT,OAAO,CAAC,CAAC;QACX;YACE,OAAO,CAAC,CAAC;IACb,CAAC;AACH,CAAC"}

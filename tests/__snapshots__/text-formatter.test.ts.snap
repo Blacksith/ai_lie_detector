@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`text formatter > matches output snapshot 1`] = `
+"Summary:
+  files scanned: 42
+  issues: error=0, warn=1, info=1
+  top rules:
+    - ast.unused_import: 1
+    - ai.generic_naming: 1
+
+Issues:
+[WARN][ast.unused_import] src/a.ts:12:3 Unused import 'x'
+  Suggestion: remove
+  Snippet: import { x } from ...
+[INFO][ai.generic_naming][conf=0.71] src/b.ts:3:1 Generic naming cluster"
+`;

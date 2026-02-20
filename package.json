@@ -1,0 +1,38 @@
+{
+  "name": "ai-check",
+  "version": "0.1.0",
+  "description": "Local CLI tool to detect risky code patterns, outdated deps, and AI-like heuristics",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "ai-check": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.27.7",
+    "@babel/traverse": "^7.27.7",
+    "@babel/types": "^7.29.0",
+    "commander": "^13.1.0",
+    "fast-glob": "^3.3.3",
+    "ignore": "^7.0.4",
+    "semver": "^7.7.2",
+    "undici": "^7.12.0"
+  },
+  "devDependencies": {
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "^22.16.3",
+    "@types/semver": "^7.7.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
